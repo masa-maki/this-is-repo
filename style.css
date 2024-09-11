@@ -2,3 +2,8 @@ body {
   text-align: center;
   background-color: #efefef;
 }
+button {
+  background-color: #2098d1;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}

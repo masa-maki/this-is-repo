@@ -1,2 +1,4 @@
-alert(“Hello, world!”);
-console.log("This message is just a log");
+function onClickDelete() {
+  document.getElementById("blue-btn-01").textContent = "AAAAAHHGGG!!";
+  document.getElementById("blue-btn-01").style.opacity = 0;
+}

@@ -11,3 +11,20 @@ body {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+#blue-btn-01 {
+  transition: opacity 1.5s;
+  width: 600px;
+  display: inline-flex;
+  justify-content: center;
+}
+#blue-btn-01 span:nth-child(2) {
+  position: absolute;
+  display: none;
+}
+#blue-btn-01:hover span:nth-child(1) {
+  opacity: 0;
+}
+#blue-btn-01:hover span:nth-child(2) {
+  display: inline-block;
+}
